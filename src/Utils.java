@@ -1,4 +1,4 @@
-package ClassRenamer;
+package com.github.SmithGoll.ClassRenamer;
 
 import java.io.*;
 

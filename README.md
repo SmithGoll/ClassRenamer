@@ -20,12 +20,16 @@ cd ClassRenamer
 ```bash
 # Build and execute
 ./run.sh [in_jar] [out_jar]
+# Use specified class renamer
+./run.sh [custom_renamer_class] [in_jar] [out_jar]
 ```
 
 ### Method 2: Use Pre-built Release
 ```bash
 # Download latest JAR from releases
-java -jar ClassRenamer-1.0.0.jar [in_jar] [out_jar]
+java -jar ClassRenamer-v1.0.0.jar [in_jar] [out_jar]
+# Use specified class renamer
+java -jar ClassRenamer-v1.0.0.jar [custom_renamer_class] [in_jar] [out_jar]
 ```
 
 ## ATTENTION

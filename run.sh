@@ -3,4 +3,4 @@
 SCRIPT_DIR="$(realpath ""$0"")"
 SCRIPT_DIR="${SCRIPT_DIR%/*}"
 
-exec java -cp "${SCRIPT_DIR}/build":"${SCRIPT_DIR}/lib/asm-9.6.jar" ClassRenamer.CMain "$@"
+exec java -cp "${SCRIPT_DIR}/build":"${SCRIPT_DIR}/lib/asm-9.6.jar" com.github.SmithGoll.ClassRenamer.CMain "$@"
